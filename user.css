@@ -1,0 +1,39 @@
+
+.userDiv{
+    background: lightblue;
+    width: 90%;
+   margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: black 1px solid;
+    border-radius:15px ;
+}
+.btn{
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.container1{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    height: 250px;
+margin: 5px;
+
+}
+.post{
+    width:17%;
+background:dodgerblue;
+    margin: 1px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.container2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}

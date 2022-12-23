@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+.Div{
+    display: inline-flex;
+    align-items: center;
+
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background: darkgrey;
+   border: black 1px solid;
+    border-radius: 3px;
+}
+.con{
+    background: lightgray;
+    border: grey 1px solid;
+    width: 400px;
+    border-radius: 10px;
+}
