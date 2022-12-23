@@ -77,7 +77,7 @@ btn.onclick=function () {
             }
 
         })
-
+btn.disabled= true;
 }
 document.body.appendChild(container2);
 container2.append(btn);
