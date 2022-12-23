@@ -1,4 +1,6 @@
-
+body{
+    background:lightcyan;
+}
 .userDiv{
     background: lightblue;
     width: 90%;

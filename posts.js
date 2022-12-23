@@ -14,7 +14,7 @@ console.log(post);
         for (const item in posts) {
             let tDiv=document.createElement('div');
           let p=document.createElement('p');
-           p.innerText= `${item}: ${posts[item]}`;
+           p.innerHTML= `<b>${item}:</b> ${posts[item]}`;
            tDiv.appendChild(p);
             document.body.append(tDiv);
             container.classList.add('container');
@@ -23,7 +23,7 @@ console.log(post);
 
 
         const text=document.createElement('div');
-        text.innerText='COMMENTS:'
+        text.innerHTML='<b>COMMENTS:</b>'
         text.classList.add('text');
         document.body.appendChild(text);
         text.classList.add('text');
@@ -36,11 +36,11 @@ console.log(post);
                 for (const comment of valueC) {
                     let div=document.createElement('div');
                     let p = document.createElement('p');
-                     p.innerText= `postId: ${comment.postId}
-                    id: ${comment.id}
-                    name: ${comment.name}
-                    email: ${comment.email}
-                    body: ${comment.body}`;
+                     p.innerHTML= `<b>postId:</b> ${comment.postId}
+                    <p><b>id:</b> ${comment.id}</p>
+                    <p><b>name:</b> ${comment.name}</p>
+                    <p><b>email:</b> ${comment.email}</p>
+                  <p> <b> body:</b> ${comment.body}</p>`
                     div.appendChild(p);
                     div.classList.add('div')
                     document.body.append(div);

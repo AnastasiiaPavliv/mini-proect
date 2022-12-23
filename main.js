@@ -8,7 +8,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         for (const item of value) {
         const usersDiv = document.createElement('div');
         usersDiv.classList.add('Div');
-        usersDiv.innerText = `${item.id} -- ${item.name}`;
+        usersDiv.innerHTML = `<b>${item.id}</b> -- ${item.name}`;
         container.classList.add('con')
         container.append(usersDiv);
 

@@ -2,6 +2,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+body{
+    background: lightgoldenrodyellow;
+}
 .Div{
     display: inline-flex;
     align-items: center;
@@ -16,13 +19,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 60px;
-    background: darkgrey;
-   border: black 1px solid;
+    background: papayawhip;
+   border: darkgoldenrod 1px solid;
     border-radius: 3px;
 }
 .con{
-    background: lightgray;
-    border: grey 1px solid;
+    background: beige;
+    border: rosybrown 2px solid;
     width: 400px;
     border-radius: 10px;
 }
