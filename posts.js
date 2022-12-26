@@ -40,7 +40,7 @@ console.log(post);
                     <p><b>id:</b> ${comment.id}</p>
                     <p><b>name:</b> ${comment.name}</p>
                     <p><b>email:</b> ${comment.email}</p>
-                  <p> <b> body:</b> ${comment.body}</p>`
+                  <p><b> body:</b> ${comment.body}</p>`
                     div.appendChild(p);
                     div.classList.add('div')
                     document.body.append(div);
@@ -50,8 +50,3 @@ console.log(post);
 
             })
     });
-
-
-
-
-

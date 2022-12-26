@@ -17,18 +17,17 @@ body{
 }
 .container1{
     display: flex;
-
     flex-wrap: wrap;
     flex-direction: row;
     align-content: space-between;
     justify-content: center;
-    height: 250px;
+    height: 200px;
 margin: 5px;
 
 }
 .post{
     width:17%;
-background:dodgerblue;
+background:lightsteelblue;
     margin: 1px;
     border: black 1px solid;
     border-radius: 5px;

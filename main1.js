@@ -63,8 +63,8 @@ btn.onclick=function () {
             for (const post of posts) {
                 let postDiv = document.createElement('div');
                 postDiv.innerText = post.title;
-                const a = document.createElement('a');
-                a.innerText = `Detail of post`;
+                const a = document.createElement('a')
+                a.innerHTML=  `<b><p> Detail of post </p></b>`;
                 postDiv.append(a);
                 a.href = `post-details.html?asd=` +JSON.stringify(post);
                 document.body.appendChild(postDiv);
